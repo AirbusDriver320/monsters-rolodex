@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './card.styles.css';
+import './card.styles.css'; // add className for styles
 
 export const Card = (props) => (
     <div className='card-container'>
@@ -9,3 +9,4 @@ export const Card = (props) => (
         <h4>{props.monster.email}</h4>
     </div>
 )
+// props contains monster because it was passed on from card-list
